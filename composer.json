@@ -1,0 +1,14 @@
+{
+    "name": "Messing with DI Containers",
+    "description": "does it really need a description?",
+    "require": {
+        "php": ">=7.0.0",
+        "php-di/php-di":"6.0.0-beta3"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Cellar\\": "src/"
+        }
+    }
+}
